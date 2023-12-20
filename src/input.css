@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    @apply
+    font-nunito 
+       
+}
+
+.container-logo {
+    @apply
+    max-w-[1170px]
+}
+

@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Life</title>
+
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Prompt:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="w-full relative bg-cover bg-center">
+        <!-- header 1 -->
+        <div class="h-[100px] relative border-b">
+            <div class="h-full max-w-[1170px] flex justify-between items-center flex-nowrap px-[15px] mx-auto">
+                <!-- icon list(< 848px) -->
+                <div class="min-[848px]:hidden">
+                    
+                </div>
+                <!-- logo -->
+                <div class="flex justify-center w-[176px] mx-[15px] min-[848px]:justify-start min-[848px]:ml-0 min-[848px]:mr-[30px]">
+                    <a href="http://">
+                        <img width="70px" src="media/images/logo_happy_life_1.jpg" alt="">
+                    </a>
+                </div>
+                <!-- info(> 848px) -->
+                <div class="max-[848px]:hidden max-h-full ml-auto tracking-wider">
+                    <ul class="flex w-full justify-end">
+                        <!-- info 1 phone -->
+                        <li class="w-full mr-[7px]  min-h-[15px]">
+                            <div class="flex items-center flex-nowrap w-full text-left">
+                                <!-- icon -->
+                                <div class="max-w-[200pxs]">
+                                    <img width="30px" src="media/images/call.png" alt="">
+                                </div>
+                                <!-- phone number -->
+                                <div class="pl-4">
+                                    <!-- Ha Noi -->
+                                    <h5 class="uppercase text-xs pb-[6px] leading-relaxed">Hà Nội: 098x.xx.xx.xx</h5>
+                                    <!-- HCM -->
+                                    <p class="uppercase text-[13px] font-[400px] leading-5">TP.HCM: 098x.xx.xx.xx</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- info 2 address -->
+                        <li class="w-full ml-[7px] min-h-[15px]">
+                            <div class="flex flex-nowrap ml-9 w-[420px]">
+                                <!-- icon -->
+                                <div class="max-w-[200px]">
+                                    <img width="40px" src="media/images/map.png" alt="">
+                                </div>
+                                <!-- address -->
+                                <div class="pl-4">
+                                    <!-- Ha Noi -->
+                                    <div class="uppercase text-xs pb-[6px] leading-relaxed">
+                                        <h6>Hà Nội: Số 22, ngõ 99 Nguyễn Tuân, Q.Thanh Xuân</h6>
+                                    </div>
+                                    <!-- HCM -->
+                                    <div class="uppercase text-[13px] font-[400px] leading-5">
+                                        <h6>TP.HCM: Lầu 7, Toà nhà Ba Niềm, Số 35 Hoàng Diệu, Phường 13, Quận 4</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- search(< 840px) -->
+                <div class="min-[848px]:hidden">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- header 2 -->
+        <div class="max-[848px]:hidden flex h-[50px] min-h-[68px] relative items-center border-t flex-wrap">
+            <div class="flex h-full max-w-[1170px] justify-between items-center flex-nowrap w-full px-[15px] mx-auto">
+                <!-- menu(cố định) -->
+                <div class="mr-auto max-h-full">
+                    <ul class="w-full flex justify-start items-center relative flex-nowrap">
+                        <li class="mr-[9px] relative">
+                            <a class="transition-all text-sm uppercase font-bold opacity-80 px-[15px] leading-4 tracking-wide flex flex-wrap items-center hover:text-[#36a264] duration-500" href="">Giới thiệu</a>
+                            <!-- Menu son -->
+                            <ul></ul>
+                        </li>
+                        <li class="mx-[9px] relative">
+                            <a class="transition-all text-sm uppercase font-bold opacity-80 px-[15px] leading-4 tracking-wide flex flex-wrap items-center hover:text-[#36a264] duration-500" href="">Đội ngũ chuyên gia</a>
+                            <!-- Menu son -->
+                            <ul></ul>
+                        </li>
+                        <li class="mx-[9px] relative">
+                            <a class="transition-all text-sm uppercase font-bold opacity-80 px-[15px] leading-4 tracking-wide flex flex-wrap items-center hover:text-[#36a264] duration-500" href="">Dịch vụ tâm lý</a>
+                            <!-- Menu son -->
+                            <ul></ul>
+                        </li>
+                        <li class="mx-[9px] relative">
+                            <a class="transition-all text-sm uppercase font-bold opacity-80 px-[15px] leading-4 tracking-wide flex flex-wrap items-center hover:text-[#36a264] duration-500" href="">Bài viết</a>
+                            <!-- Menu son -->
+                            <ul></ul>
+                        </li>
+                        <li class="mx-[9px] relative">
+                            <a class="transition-all text-sm uppercase font-bold opacity-80 px-[15px] leading-4 tracking-wide flex flex-wrap items-center hover:text-[#36a264] duration-500" href="">Psytest miễn phí</a>
+                            <!-- Menu son -->
+                            <ul></ul>
+                        </li>
+                        <li class="mx-[9px] relative">
+                            <a class="transition-all text-sm uppercase font-bold opacity-80 px-[15px] leading-4 tracking-wide flex flex-wrap items-center hover:text-[#36a264] duration-500" href="">Liên hệ</a>
+                            <!-- Menu son -->
+                            <ul></ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- register + search -->
+                <div class="ml-auto flex flex-1 max-h-full ">
+                    <ul class="flex flex-nowrap w-full relative items-center justify-end box-border list-disc">
+                        <!-- register -->
+                        <li class="text-sm mr-[9px] relative inline-block">
+                            <div class="inline-block box-border list-none">
+                                <a class="text-[1.15em] bg-[#d26e4b] tracking-[0.03em] cursor-pointer font-bold text-center decoration-auto border align-middle leading-[0.3em] min-h-[2.5em] px-[1.2em] max-w-full box-border text-white " style="border-radius:99px;" href=""><span class="inline-block leading-[1.6] box-border">ĐĂNG KÝ TƯ VẤN</span></a>
+                            </div>
+                        </li>
+                        <!-- search -->
+                        <li class="ml-[9px] relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" zoomAndPan="magnify" viewBox="0 0 24 23.999999" height="23" preserveAspectRatio="xMidYMid meet" version="1.0"><path fill="#000000" d="M 9.910156 19.164062 C 9.535156 19.164062 9.164062 19.140625 8.789062 19.097656 C 8.417969 19.050781 8.050781 18.980469 7.6875 18.890625 C 7.320312 18.800781 6.964844 18.6875 6.613281 18.550781 C 6.265625 18.417969 5.925781 18.261719 5.59375 18.085938 C 5.261719 17.90625 4.945312 17.710938 4.636719 17.496094 C 4.332031 17.28125 4.039062 17.046875 3.757812 16.792969 C 3.480469 16.542969 3.21875 16.273438 2.976562 15.992188 C 2.730469 15.707031 2.503906 15.410156 2.292969 15.097656 C 2.085938 14.785156 1.898438 14.460938 1.730469 14.125 C 1.558594 13.789062 1.414062 13.445312 1.285156 13.09375 C 1.160156 12.738281 1.054688 12.378906 0.972656 12.015625 C 0.890625 11.648438 0.832031 11.277344 0.792969 10.90625 C 0.757812 10.53125 0.742188 10.15625 0.753906 9.78125 C 0.761719 9.40625 0.792969 9.035156 0.847656 8.664062 C 0.90625 8.292969 0.980469 7.925781 1.082031 7.5625 C 1.183594 7.203125 1.304688 6.847656 1.449219 6.503906 C 1.589844 6.15625 1.753906 5.820312 1.941406 5.492188 C 2.125 5.167969 2.328125 4.851562 2.554688 4.550781 C 2.777344 4.25 3.019531 3.964844 3.277344 3.691406 C 3.535156 3.421875 3.808594 3.164062 4.101562 2.925781 C 4.390625 2.6875 4.695312 2.46875 5.011719 2.269531 C 5.328125 2.070312 5.65625 1.886719 5.996094 1.726562 C 6.335938 1.566406 6.683594 1.429688 7.039062 1.3125 C 7.394531 1.195312 7.757812 1.097656 8.125 1.027344 C 8.492188 0.953125 8.863281 0.902344 9.238281 0.875 C 9.613281 0.847656 9.988281 0.84375 10.363281 0.863281 C 10.734375 0.878906 11.109375 0.921875 11.476562 0.984375 C 11.847656 1.050781 12.210938 1.136719 12.570312 1.246094 C 12.929688 1.355469 13.28125 1.484375 13.625 1.636719 C 13.964844 1.789062 14.296875 1.964844 14.621094 2.15625 C 14.941406 2.347656 15.25 2.5625 15.546875 2.792969 C 15.84375 3.023438 16.121094 3.273438 16.386719 3.535156 C 17.027344 4.175781 17.5625 4.894531 17.988281 5.695312 C 18.417969 6.492188 18.71875 7.335938 18.894531 8.226562 C 19.074219 9.113281 19.117188 10.007812 19.027344 10.910156 C 18.9375 11.808594 18.722656 12.679688 18.375 13.515625 C 18.027344 14.351562 17.566406 15.121094 16.992188 15.820312 C 16.417969 16.519531 15.753906 17.121094 15 17.625 C 14.246094 18.128906 13.4375 18.511719 12.570312 18.773438 C 11.703125 19.035156 10.816406 19.164062 9.910156 19.164062 Z M 9.910156 2.867188 C 9.363281 2.867188 8.824219 2.929688 8.289062 3.050781 C 7.753906 3.175781 7.242188 3.355469 6.75 3.597656 C 6.257812 3.839844 5.796875 4.132812 5.375 4.480469 C 4.949219 4.828125 4.570312 5.21875 4.234375 5.652344 C 3.902344 6.085938 3.621094 6.554688 3.394531 7.054688 C 3.164062 7.550781 3 8.070312 2.890625 8.609375 C 2.78125 9.144531 2.738281 9.6875 2.753906 10.238281 C 2.773438 10.785156 2.851562 11.324219 2.992188 11.851562 C 3.132812 12.382812 3.332031 12.890625 3.589844 13.375 C 3.847656 13.859375 4.160156 14.304688 4.519531 14.71875 C 4.882812 15.132812 5.285156 15.496094 5.730469 15.816406 C 6.175781 16.136719 6.652344 16.402344 7.15625 16.613281 C 7.664062 16.820312 8.1875 16.972656 8.726562 17.0625 C 9.269531 17.152344 9.8125 17.179688 10.359375 17.140625 C 10.90625 17.105469 11.441406 17.007812 11.96875 16.851562 C 12.492188 16.691406 12.992188 16.472656 13.46875 16.199219 C 13.941406 15.925781 14.378906 15.601562 14.78125 15.226562 C 15.179688 14.851562 15.53125 14.4375 15.835938 13.980469 C 16.140625 13.523438 16.390625 13.039062 16.582031 12.527344 C 16.777344 12.015625 16.910156 11.484375 16.980469 10.941406 C 17.050781 10.398438 17.058594 9.855469 17.003906 9.308594 C 16.953125 8.761719 16.835938 8.230469 16.660156 7.710938 C 16.484375 7.191406 16.25 6.699219 15.960938 6.234375 C 15.671875 5.769531 15.332031 5.34375 14.945312 4.957031 C 14.277344 4.289062 13.507812 3.773438 12.636719 3.410156 C 11.761719 3.050781 10.855469 2.867188 9.910156 2.867188 Z M 9.910156 2.867188 " fill-opacity="1" fill-rule="nonzero"/><path fill="#000000" d="M 22.894531 24 C 22.617188 24 22.378906 23.898438 22.183594 23.703125 L 14.964844 16.488281 C 14.867188 16.394531 14.796875 16.285156 14.746094 16.160156 C 14.695312 16.039062 14.667969 15.910156 14.667969 15.777344 C 14.667969 15.644531 14.695312 15.515625 14.746094 15.390625 C 14.796875 15.265625 14.867188 15.160156 14.964844 15.0625 C 15.058594 14.96875 15.167969 14.898438 15.289062 14.847656 C 15.414062 14.792969 15.542969 14.769531 15.675781 14.769531 C 15.808594 14.769531 15.9375 14.792969 16.0625 14.847656 C 16.183594 14.898438 16.292969 14.96875 16.386719 15.0625 L 23.601562 22.285156 C 23.746094 22.429688 23.835938 22.597656 23.875 22.796875 C 23.914062 22.996094 23.894531 23.191406 23.820312 23.378906 C 23.742188 23.566406 23.617188 23.714844 23.449219 23.828125 C 23.28125 23.941406 23.097656 24 22.894531 24 Z M 22.894531 24 " fill-opacity="1" fill-rule="nonzero"/><path fill="#000000" d="M 9.910156 19.164062 C 9.535156 19.164062 9.164062 19.140625 8.789062 19.097656 C 8.417969 19.050781 8.050781 18.980469 7.6875 18.890625 C 7.320312 18.800781 6.964844 18.6875 6.613281 18.550781 C 6.265625 18.417969 5.925781 18.261719 5.59375 18.085938 C 5.261719 17.90625 4.945312 17.710938 4.636719 17.496094 C 4.332031 17.28125 4.039062 17.046875 3.757812 16.792969 C 3.480469 16.542969 3.21875 16.273438 2.976562 15.992188 C 2.730469 15.707031 2.503906 15.410156 2.292969 15.097656 C 2.085938 14.785156 1.898438 14.460938 1.730469 14.125 C 1.558594 13.789062 1.414062 13.445312 1.285156 13.09375 C 1.160156 12.738281 1.054688 12.378906 0.972656 12.015625 C 0.890625 11.648438 0.832031 11.277344 0.792969 10.90625 C 0.757812 10.53125 0.742188 10.15625 0.753906 9.78125 C 0.761719 9.40625 0.792969 9.035156 0.847656 8.664062 C 0.90625 8.292969 0.980469 7.925781 1.082031 7.5625 C 1.183594 7.203125 1.304688 6.847656 1.449219 6.503906 C 1.589844 6.15625 1.753906 5.820312 1.941406 5.492188 C 2.125 5.167969 2.328125 4.851562 2.554688 4.550781 C 2.777344 4.25 3.019531 3.964844 3.277344 3.691406 C 3.535156 3.421875 3.808594 3.164062 4.101562 2.925781 C 4.390625 2.6875 4.695312 2.46875 5.011719 2.269531 C 5.328125 2.070312 5.65625 1.886719 5.996094 1.726562 C 6.335938 1.566406 6.683594 1.429688 7.039062 1.3125 C 7.394531 1.195312 7.757812 1.097656 8.125 1.027344 C 8.492188 0.953125 8.863281 0.902344 9.238281 0.875 C 9.613281 0.847656 9.988281 0.84375 10.363281 0.863281 C 10.734375 0.878906 11.109375 0.921875 11.476562 0.984375 C 11.847656 1.050781 12.210938 1.136719 12.570312 1.246094 C 12.929688 1.355469 13.28125 1.484375 13.625 1.636719 C 13.964844 1.789062 14.296875 1.964844 14.621094 2.15625 C 14.941406 2.347656 15.25 2.5625 15.546875 2.792969 C 15.84375 3.023438 16.121094 3.273438 16.386719 3.535156 C 17.027344 4.175781 17.5625 4.894531 17.988281 5.695312 C 18.417969 6.492188 18.71875 7.335938 18.894531 8.226562 C 19.074219 9.113281 19.117188 10.007812 19.027344 10.910156 C 18.9375 11.808594 18.722656 12.679688 18.375 13.515625 C 18.027344 14.351562 17.566406 15.121094 16.992188 15.820312 C 16.417969 16.519531 15.753906 17.121094 15 17.625 C 14.246094 18.128906 13.4375 18.511719 12.570312 18.773438 C 11.703125 19.035156 10.816406 19.164062 9.910156 19.164062 Z M 9.910156 2.867188 C 9.363281 2.867188 8.824219 2.929688 8.289062 3.050781 C 7.753906 3.175781 7.242188 3.355469 6.75 3.597656 C 6.257812 3.839844 5.796875 4.132812 5.375 4.480469 C 4.949219 4.828125 4.570312 5.21875 4.234375 5.652344 C 3.902344 6.085938 3.621094 6.554688 3.394531 7.054688 C 3.164062 7.550781 3 8.070312 2.890625 8.609375 C 2.78125 9.144531 2.738281 9.6875 2.753906 10.238281 C 2.773438 10.785156 2.851562 11.324219 2.992188 11.851562 C 3.132812 12.382812 3.332031 12.890625 3.589844 13.375 C 3.847656 13.859375 4.160156 14.304688 4.519531 14.71875 C 4.882812 15.132812 5.285156 15.496094 5.730469 15.816406 C 6.175781 16.136719 6.652344 16.402344 7.15625 16.613281 C 7.664062 16.820312 8.1875 16.972656 8.726562 17.0625 C 9.269531 17.152344 9.8125 17.179688 10.359375 17.140625 C 10.90625 17.105469 11.441406 17.007812 11.96875 16.851562 C 12.492188 16.691406 12.992188 16.472656 13.46875 16.199219 C 13.941406 15.925781 14.378906 15.601562 14.78125 15.226562 C 15.179688 14.851562 15.53125 14.4375 15.835938 13.980469 C 16.140625 13.523438 16.390625 13.039062 16.582031 12.527344 C 16.777344 12.015625 16.910156 11.484375 16.980469 10.941406 C 17.050781 10.398438 17.058594 9.855469 17.003906 9.308594 C 16.953125 8.761719 16.835938 8.230469 16.660156 7.710938 C 16.484375 7.191406 16.25 6.699219 15.960938 6.234375 C 15.671875 5.769531 15.332031 5.34375 14.945312 4.957031 C 14.277344 4.289062 13.507812 3.773438 12.636719 3.410156 C 11.761719 3.050781 10.855469 2.867188 9.910156 2.867188 Z M 9.910156 2.867188 " fill-opacity="1" fill-rule="nonzero"/><path fill="#000000" d="M 22.894531 24 C 22.617188 24 22.378906 23.898438 22.183594 23.703125 L 14.964844 16.488281 C 14.867188 16.394531 14.796875 16.285156 14.746094 16.160156 C 14.695312 16.039062 14.667969 15.910156 14.667969 15.777344 C 14.667969 15.644531 14.695312 15.515625 14.746094 15.390625 C 14.796875 15.265625 14.867188 15.160156 14.964844 15.0625 C 15.058594 14.96875 15.167969 14.898438 15.289062 14.847656 C 15.414062 14.792969 15.542969 14.769531 15.675781 14.769531 C 15.808594 14.769531 15.9375 14.792969 16.0625 14.847656 C 16.183594 14.898438 16.292969 14.96875 16.386719 15.0625 L 23.601562 22.285156 C 23.746094 22.429688 23.835938 22.597656 23.875 22.796875 C 23.914062 22.996094 23.894531 23.191406 23.820312 23.378906 C 23.742188 23.566406 23.617188 23.714844 23.449219 23.828125 C 23.28125 23.941406 23.097656 24 22.894531 24 Z M 22.894531 24 " fill-opacity="1" fill-rule="nonzero"/></svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- banners list -->
+        <div class="relative">
+            <!-- button trái -->
+            <button></button>
+            <!-- banners -->
+            <div class="h-[302px] min-[850px]:h-[550px] touch-pan-y cursor-grab w-full overflow-hidden relative box-border block">
+                <div class="left-0 transform absolute w-full h-full">
+                    <div class="w-full bg-no-repeat bg-center">
+                        <img class="h-full w-full" src="media/images/img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- button phải -->
+            <button></button>
+        </div>
+        <div class="block h-auto pt-20 box-border"></div>
+        <div class="flex flex-col max-w-[1162px] rounded-sm shadow-lg mt-[-80px] relative justify-center w-full flex-nowrap mx-auto min-[550px]:flex-row ">
+            <!--  -->
+            <div class="flex w-full basis-full min-[550px]:max-w-1/3 min-[550px]:basis-1/3 border-r">
+                <div class="p-9 leading-[1.6em] text-center">
+                    <!-- icon -->
+                    <div class="flex items-center justify-center mb-4">
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center font-bold text-[24px] leading-6 mb-[10px] text-[#36a264]">Nghiên cứu phát triển</h3>
+                        <p class="text-justify text-[16px] leading-6 text-[#202020]">Chúng tôi nỗ lực nghiên cứu và phát triển lĩnh vực tâm lý học, ứng dụng khoa học công nghệ trong tâm lý, tìm ra những phương pháp tốt hơn chăm sóc sức khoẻ tinh thần cho cộng đồng</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="flex w-full basis-full min-[550px]:max-w-1/3 min-[550px]:basis-1/3">
+                <div class="p-9 leading-[1.6em] text-center">
+                    <!-- icon -->
+                    <div class="flex items-center justify-center mb-4">
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center font-bold text-[24px] leading-6 mb-[10px] text-[#36a264]">Tham vấn, trị liệu tâm lý</h3>
+                        <p class="text-justify text-[16px] leading-6 text-[#202020]">MindCare thực hiện tham vấn tâm lý trực tiếp, trực tuyến cho các cá nhân, cặp đôi, gia đình và các nhóm cá nhân đang gặp những khó khăn, vướng mắc cần tháo gỡ…</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="flex w-full basis-full min-[550px]:max-w-1/3 min-[550px]:basis-1/3 border-l">
+                <div class="p-9 leading-[1.6em] text-center">
+                    <!-- icon -->
+                    <div class="flex items-center justify-center mb-4">
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center font-bold text-[24px] leading-6 mb-[10px] text-[#36a264]">Đào tạo tâm lý và ứng dụng</h3>
+                        <p class="text-justify text-[16px] leading-6 text-[#202020]">Các chương trình đào tạo nâng cao năng lực cho các chuyên viên tham vấn tâm lý và các khoá học cho cộng đồng về tâm lý và ứng dụng trong cuộc sống thực tế</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pt-[60px] h-auto"></div>
+        <!-- Sứ mệnh -->
+        <div class="flex flex-col max-w-[1140px] border rounded-sm w-full flex-nowrap mx-auto min-[550px]:flex-row">
+            <!-- img -->
+            <div class="flex relative max-w-full basis-full min-[550px]:max-w-[50%] min-[550px]:basis-1/2">
+                <div class="text-right mx-auto w-full bg-center bg-cover bg-no-repeat grow basis-auto">
+                    <img class="w-full ml-auto mr-0 overflow-hidden max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                </div>
+            </div>
+            <!--  -->
+            <div class="flex max-w-full basis-full min-[550px]:max-w-[50%] min-[550px]:basis-1/2">
+                <div class="px-6 bg-[#ffffff] relative mx-auto w-full bg-center bg-cover bg-no-repeat">
+                    <div class="h-auto pt-[42px]"></div>
+                    <h3 class="text-2xl text-center font-bold text-[#555] mb-3">
+                        <span class="text-[#36a264]">Sứ mệnh vì triệu người Việt Nam hạnh phúc hơn mỗi ngày!</span>
+                    </h3>
+                    <p class="text-justify mb-[20.8px]">
+                        <span class="text-black">Đội ngũ MindCare Việt Nam có chung một niềm khát khao mãnh liệt mong muốn giúp cho mọi người trân quý sức khoẻ tinh thần của chính mình và những người thân xung quanh. </span>
+                    </p>
+                    <p class="mb-[20.8px]">
+                        <span>Hãy sẻ chia với chúng tôi bất kỳ khi nào bạn cần, chúng tôi luôn sẵn lòng lắng nghe bạn!</span>
+                    </p>
+                    <div class="pt-6"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Đội ngũ chuyên gia -->
+        <section class="py-3 relative min-h-[auto] w-full items-center flex flex-col">
+            <div class="h-auto pt-8"></div>
+            <!-- text -->
+            <div class="max-w-[1170px] mb-[1.75em] px-[15px] w-full mx-auto ">
+                <h2 class="relative flex justify-between items-center flex-nowrap w-full font-bold text-[1.2em] leading-[1.3em] text-[#555] mb-2">
+                    <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                    <span class="text-[#36a264] box-border">ĐỘI NGŨ CHUYÊN GIA TẠI MINDCARE</span>
+                    <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                </h2>
+            </div>
+            <!-- banners -->
+            <div class="max-w-[1170px] mb-[1.75em] px-[15px] w-full mx-auto ">
+                <div class="max-w-[1170px] w-full flex flex-wrap mx-auto">
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                        <div class="ml-auto w-full bg-center bg-cover bg-no-repeat">
+                            <a class="inline-block w-full text-[#334862] bg-transparent" href="">
+                                <div class="w-[80%] relative h-auto overflow-hidden box-border block mx-auto">
+                                    <div class="rounded-full pt-[100%] relative h-auto overflow-hidden bg-center bg-cover">
+                                        <img class="w-full h-full right-0 bottom-0 left-0 top-0 absolute object-center object-cover " src="media/images/img.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="px-[15px] pt-[15px] pb-[20px] text-center relative w-full text-[0.9em] box-border block">
+                                <div class="mx-auto box-border block">
+                                    <h4 class="leading-[1.3] my-[0.1em] uppercase tracking-[0.05em] font-bold">
+                                        <span>PGS. TS BÙI THỊ HỒNG THÁI</span>
+                                        <br>
+                                        <span class="opacity-70 text-[.8em] font-light box-border">
+                                            Giảng viên Khoa Tâm lý học, trường ĐHKHXH&NV, ĐHQG HN. Giám sát chuyên môn tại Tâm lý MindCare                    </span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                        <div class="ml-auto w-full bg-center bg-cover bg-no-repeat">
+                            <a class="inline-block w-full text-[#334862] bg-transparent" href="">
+                                <div class="w-[80%] relative h-auto overflow-hidden box-border block mx-auto">
+                                    <div class="rounded-full pt-[100%] relative h-auto overflow-hidden bg-center bg-cover">
+                                        <img class="w-full h-full right-0 bottom-0 left-0 top-0 absolute object-center object-cover " src="media/images/img.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="px-[15px] pt-[15px] pb-[20px] text-center relative w-full text-[0.9em] box-border block">
+                                <div class="mx-auto box-border block">
+                                    <h4 class="leading-[1.3] my-[0.1em] uppercase tracking-[0.05em] font-bold">
+                                        <span>TS. ĐẶNG HOÀNG NGÂN</span>
+                                        <br>
+                                        <span class="opacity-70 text-[.8em] font-light box-border">
+                                            Cựu giảng viên trường ĐH Khoa Học Xã Hội Và Nhân Văn; Cố vấn chuyên môn của MindCare                    </span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                        <div class="ml-auto w-full bg-center bg-cover bg-no-repeat">
+                            <a class="inline-block w-full text-[#334862] bg-transparent" href="">
+                                <div class="w-[80%] relative h-auto overflow-hidden box-border block mx-auto">
+                                    <div class="rounded-full pt-[100%] relative h-auto overflow-hidden bg-center bg-cover">
+                                        <img class="w-full h-full right-0 bottom-0 left-0 top-0 absolute object-center object-cover " src="media/images/img.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="px-[15px] pt-[15px] pb-[20px] text-center relative w-full text-[0.9em] box-border block">
+                                <div class="mx-auto box-border block">
+                                    <h4 class="leading-[1.3] my-[0.1em] uppercase tracking-[0.05em] font-bold">
+                                        <span>TH.S LÊ THỊ MINH TÂM</span>
+                                        <br>
+                                        <span class="opacity-70 text-[.8em] font-light box-border">
+                                            Chuyên gia tâm lý tại Đại Học Rmit Việt Nam, chi hội trưởng chi hội tâm lý ứng dụng - giáo dục cộng đồng - Hoa súng. 18 năm kinh nghiệm                    </span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                        <div class="ml-auto w-full bg-center bg-cover bg-no-repeat">
+                            <a class="inline-block w-full text-[#334862] bg-transparent" href="">
+                                <div class="w-[80%] relative h-auto overflow-hidden box-border block mx-auto">
+                                    <div class="rounded-full pt-[100%] relative h-auto overflow-hidden bg-center bg-cover">
+                                        <img class="w-full h-full right-0 bottom-0 left-0 top-0 absolute object-center object-cover " src="media/images/img.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="px-[15px] pt-[15px] pb-[20px] text-center relative w-full text-[0.9em] box-border block">
+                                <div class="mx-auto box-border block">
+                                    <h4 class="leading-[1.3] my-[0.1em] uppercase tracking-[0.05em] font-bold">
+                                        <span>TH.S ĐOÀN THỊ HƯƠNG</span>
+                                        <br>
+                                        <span class="opacity-70 text-[.8em] font-light box-border">
+                                            Sáng lập Share, Chuyên gia tâm lý học lâm sàng 18 năm kinh nghiệm Tham vấn trị liệu các vấn đề về sang chấn tâm lý, nạn nhân bị xâm hại, lạm dụng, bạo lực gia đình                    </span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tại sao nên chọn tâm lý MINDCARE -->
+            <div class="max-w-[1170px] mb-6 px-[15px] w-full mx-auto">
+                <!-- text -->
+                <h2 class="relative flex justify-between items-center flex-nowrap w-full font-bold text-[1.2em] leading-[1.3em] text-[#555] mb-2">
+                    <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                    <span class="text-[#36a264]">TẠI SAO NÊN CHỌN TÂM LÝ MINDCARE</span>
+                    <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                </h2>
+                <!-- cs -->
+                <div class="max-w-[1170px] w-full flex flex-wrap mx-auto">
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4 ">
+                        <div class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center">
+                            <!-- img -->
+                            <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                                <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                                    <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- text -->
+                            <div class="mx-auto">
+                                <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px] ">Chuyên gia giàu kinh nghiệm</h3>
+                                <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Chuyên gia của MindCare là những nhà tâm lý có trình độ cử nhân, thạc sĩ, tiến sĩ…có nhiều năm kinh nghiệm trong lĩnh vực, luôn tận tuỵ, yêu nghề và giàu tình yêu thương</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4 ">
+                        <div class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center">
+                            <!-- img -->
+                            <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                                <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                                    <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- text -->
+                            <div class="mx-auto">
+                                <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px] ">Đặt lịch hẹn ưu tiên với chuyên gia riêng</h3>
+                                <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Bạn được lựa chọn một chuyên gia riêng đồng hành cùng mình trong suốt quá trình một cách an toàn, đặt lịch hẹn ưu tiên để không làm mất thời gian của bạn</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4 ">
+                        <div class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center">
+                            <!-- img -->
+                            <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                                <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                                    <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- text -->
+                            <div class="mx-auto">
+                                <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px] ">Chuyên nghiệp, tận tâm, trách nhiệm</h3>
+                                <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Đội ngũ của chúng tôi luôn sẵn sàng phục vụ 24/7 khi bạn có nhu cầu hỗ trợ một cách tận tình nhất</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4 ">
+                        <div class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center">
+                            <!-- img -->
+                            <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                                <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                                    <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- text -->
+                            <div class="mx-auto">
+                                <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px] ">Bảo mật thông tin tuyệt đối của khách hàng</h3>
+                                <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Đây là nguyên tắc bắt buộc phải tuân thủ khi hành nghề tâm lý, mọi thông tin tư vấn, đời tư của khách hàng luôn được bảo mật tuyệt đối</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Đăng ký tư vấn -->
+            <div class="max-w-[1170px] mb-6 px-[15px] w-full mx-auto">
+                <div class="max-w-full basis-full relative px-[15px] pb-[30px] w-full flex flex-col items-center justify-center">
+                    <div class="h-auto block pt-[15px] mx-auto box-border"></div>
+                    <p class="text-center max-w-[780px] m-auto text-lg leading-[26px] box-border">
+                        <span class="text-black box-border">
+                            <strong>
+                                Bằng tâm huyết của mình, chúng tôi hi vọng sẽ cùng chung tay giúp đỡ được nhiều cá nhân, gia đình…vượt qua được những khó khăn, vướng mắc để hạnh phúc hơn trong cuộc sống! Chúng tôi luôn luôn sẵn sàng lắng nghe và sẻ chia!
+                            </strong>
+                        </span>
+                    </p>
+                    <div class="block h-auto pt-[30px] mx-auto box-border"></div>
+                    <!-- button -->
+                    <a class="rounded-[5px] bg-[#36a264] text-white text-[15px] font-bold px-[55px] mb-[1em] border tracking-[0.03em] py-[15px] min-h-[37.5px] " href="">
+                        <span class="">Đăng ký tư vấn</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Các rối nhiễu thường gặp -->
+        <div class="max-w-[1170px] mb-[1.75em] px-[15px] w-full mx-auto">
+            <h2 class="relative flex justify-between items-center flex-nowrap w-full font-bold text-[1.2em] leading-[1.3em] text-[#555] mb-2">
+                <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                <span class="text-[#36a264] box-border">CÁC RỐI NHIỄU THƯỜNG GẶP</span>
+                <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+            </h2>
+        </div>
+        <div class="max-w-[1170px] w-full flex flex-wrap mx-auto">
+            <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                <a href="" class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center">
+                    <!-- img -->
+                    <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                        <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                            <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px]">XEM MÌNH LÀ TRUNG TÂM: 6 DẤU HIỆU NHẬN BIẾT</h3>
+                        <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Xem mình là trung tâm (self-centered) khác với tự chăm sóc (self-care). Tự chăm sóc</p>
+                    </div>
+                </a>
+            </div>
+            <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                <a href="" class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center">
+                    <!-- img -->
+                    <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                        <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                            <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px]">“Chiếc áo” của người chăm sóc có phải là quá rộng so với một đứa trẻ không?</h3>
+                        <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Khi cha mẹ phải vật lộn với các rối loạn tinh thần nghiêm trọng, con</p>
+                    </div>
+                </a>
+            </div>
+            <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                <a href="" class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center">
+                    <!-- img -->
+                    <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                        <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                            <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px]">LÀM THẾ NÀO ĐỂ HỖ TRỢ NGƯỜI GẶP KHÓ KHĂN VỀ SỨC KHỎE TINH THẦN?</h3>
+                        <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Sức khỏe tinh thần là một phần quan trọng trong mỗi chúng ta. Mặc dù</p>
+                    </div>
+                </a>
+            </div>
+            <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                <a href="" class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center">
+                    <!-- img -->
+                    <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                        <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                            <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px]">20 ĐIỀU NÊN VÀ KHÔNG NÊN NÓI VỚI NGƯỜI MẮC TRẦM CẢM</h3>
+                        <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Ai đó bị trầm cảm và bạn muốn giúp đỡ. Làm thế nào để bạn</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Xem tất cả các bài viết -->
+        <div class="max-w-[1170px] w-full flex flex-wrap mx-auto">
+            <div class="max-w-full basis-full pb-[30px] relative px-[15px] w-full box-border">
+                <div class="relative mx-auto w-full bg-center bg-cover bg-no-repeat">
+                    <a class="text-[#b20000] text-[1.15em] font-bold px-[1em] mb-[1em] tracking-[0.03em] leading-[2.4em] py-[15px] min-h-[37.5px] max-w-full box-border" href="">
+                        <span class="inline-block leading-[1.6]">Xem tất cả bài viết</span>
+                    </a>
+                    <!-- sgv -->
+                </div>
+            </div>
+        </div>
+        <!-- Tâm lý đời sống -->
+        <div class="max-w-[1170px] mb-[1.75em] px-[15px] w-full mx-auto">
+            <h2 class="relative flex justify-between items-center flex-nowrap w-full font-bold text-[1.2em] leading-[1.3em] text-[#555] mb-2">
+                <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                <span class="text-[#36a264] box-border">TÂM LÝ ĐỜI SỐNG</span>
+                <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+            </h2>
+        </div>
+        <div class="max-w-[1170px] w-full flex flex-wrap mx-auto">
+            <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                <a class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center" href="">
+                    <!-- img -->
+                    <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                        <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                            <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px]">HIỆU ỨNG BARNUM: VÉN MÀN BÍ ẨN CỦA NHỮNG LỜI TIÊN TRI</h3>
+                        <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Nhiều người trong chúng ta có lẽ đã từng đi xem bói, xem chỉ tay,</p>
+                    </div>
+                </a>
+            </div>
+            <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                <a href="">
+                    <!-- img -->
+                    <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                        <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                            <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px]">XẤU HỔ VỀ CƠ THỂ KHÔNG PHẢI LÀ MỘT KẾ HOẠCH ĂN KIÊNG</h3>
+                        <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Có rất nhiều nghiên cứu mối liên hệ giữa sự xấu hổ về cơ thể</p>
+                    </div>
+                </a>
+            </div>
+            <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                <a href="">
+                    <!-- img -->
+                    <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                        <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                            <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px]">HIỆU ỨNG TÂM ĐIỂM</h3>
+                        <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Dưới góc nhìn tập trung vào bản thân, chúng ta thường đánh giá quá cao</p>
+                    </div>
+                </a>
+            </div>
+            <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full min-[550px]:max-w-[25%] min-[550px]:basis-1/4">
+                <a href="">
+                    <!-- img -->
+                    <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                        <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                            <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- text -->
+                    <div class="mx-auto">
+                        <h3 class="text-center text-[20px] text-black font-bold mt-[26px] mb-[10px]">Vì sao chúng ta luôn khao khát một tình yêu hoàn hảo (ngay cả khi chúng ta đang trong một mối quan hệ lãng mạn)</h3>
+                        <p class="text-center text-sm text-[#3a3a3a] leading-[21px] max-w-[205px] m-auto">Francesca, một phụ nữ người Ý xinh đẹp, thanh lịch và sành điệu, đã gặp</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Xem tất cả các bài viết -->
+        <div class="max-w-[1170px] w-full flex flex-wrap mx-auto">
+            <div class="max-w-full basis-full pb-[30px] relative px-[15px] w-full box-border">
+                <div class="relative mx-auto w-full bg-center bg-cover bg-no-repeat">
+                    <a class="text-[#b20000] text-[1.15em] font-bold px-[1em] mb-[1em] tracking-[0.03em] leading-[2.4em] py-[15px] min-h-[37.5px] max-w-full box-border" href="">
+                        <span class="inline-block leading-[1.6]">Xem tất cả bài viết</span>
+                    </a>
+                    <!-- sgv -->
+                </div>
+            </div>
+        </div>
+        <div class="max-w-[1170px] w-full flex flex-wrap mx-auto box-border">
+            <!-- Sự kiện nổi bật + đăng ký tư vẫn -->
+            <!-- sự kiện nổi bật -->
+            <div class="max-w-full basis-full pb-[30px] relative px-[15px] w-full box-border min-[550px]:max-w-[50%] min-[550px]:basis-1/2">
+                <div class="max-w-[1170px] mb-[1.75em] px-[15px] w-full mx-auto">
+                    <h2 class="relative flex justify-between items-center flex-nowrap w-full font-bold text-[1.6em] leading-[1.3em] text-[#555] mb-[0.5em]">
+                        <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                        <span class="text-[#36a264] box-border">Sự kiện nổi bật</span>
+                        <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                    </h2>
+                </div>
+                <div class="max-w-[1170px] w-full flex flex-wrap mx-auto">
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full ">
+                        <a class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center" href="">
+                            <!-- img -->
+                            <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                                <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                                    <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- text -->
+                            <div class="mx-auto">
+                                <h3 class="text-center text-[1.15em] leading-[1.3] text-black font-bold mt-[26px] mb-[10px]">[MINDCARE X LIVWELL VIETNAM] WEBINAR “NGHỆ THUẬT LÀM BẠN VỚI STRESS”</h3>
+                                <p class="xt-center text-[0.9em] text-[#3a3a3a] leading-[1.6] max-w-[205px] my-[0.1em]">CÓ GÌ “HOT” TẠI WEBINAR “NGHỆ THUẬT LÀM BẠN VỚI STRESS”??? Đăng ký miễn phí:</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full ">
+                        <a class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center" href="">
+                            <!-- img -->
+                            <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                                <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                                    <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- text -->
+                            <div class="mx-auto">
+                                <h3 class="text-center text-[1.15em] leading-[1.3] text-black font-bold mt-[26px] mb-[10px]">[MINDCARE X LIVWELL VIETNAM] WEBINAR “BÍ KÍP LÀM VIỆC TRONG MÔI TRƯỜNG ĐA THẾ HỆ – PHÁ BỎ KHOẢNG CÁCH GIỮA GEN Z VÀ GEN Y”</h3>
+                                <p class="xt-center text-[0.9em] text-[#3a3a3a] leading-[1.6] max-w-[205px] my-[0.1em]">𝗪𝗘𝗕𝗜𝗡𝗔𝗥 | Bí kíp làm việc trong môi trường đa thế hệ: Phá bỏ khoảng</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full ">
+                        <a class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center" href="">
+                            <!-- img -->
+                            <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                                <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                                    <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- text -->
+                            <div class="mx-auto">
+                                <h3 class="text-center text-[1.15em] leading-[1.3] text-black font-bold mt-[26px] mb-[10px]">[MINDCARE X FPT ARENA MULTIMEDIA] KHÁM PHÁ BẢN THÂN TRONG NGÀY HỘI HƯỚNG NGHIỆP OPEN Z HÀ NỘI</h3>
+                                <p class="xt-center text-[0.9em] text-[#3a3a3a] leading-[1.6] max-w-[205px] my-[0.1em]">Ngày 2/4 vừa qua, trong Ngày Hội Hướng Nghiệp Open Z được tổ chức tại</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="max-w-[50%] basis-1/2 pb-[30px] px-[15px] w-full ">
+                        <a class="ml-auto mr-0 w-full bg-center bg-cover bg-no-repeat text-center" href="">
+                            <!-- img -->
+                            <div class="w-auto leading-[180px] max-w-full relative mb-4">
+                                <div class="w-[180px] h-auto rounded-[50%] mx-auto">
+                                    <img class="w-auto pt-[0.2em] max-w-full opacity-100" src="media/images/img.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- text -->
+                            <div class="mx-auto">
+                                <h3 class="text-center text-[1.15em] leading-[1.3] text-black font-bold mt-[26px] mb-[10px]">[MINDCARE AT WORK] ĐỒNG HÀNH CÙNG SAMSUNG TRONG KHOÁ ĐÀO TẠO NÂNG CAO KỸ NĂNG TƯ VẤN NĂM 2022</h3>
+                                <p class="xt-center text-[0.9em] text-[#3a3a3a] leading-[1.6] max-w-[205px] my-[0.1em]">Trong suốt 2 năm vừa qua, thuật ngữ “Chăm sóc sức khỏe tinh thần” chắc</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Xem tất cả các bài viết -->
+                <div class="max-w-[1170px] w-full flex flex-wrap mx-auto">
+                    <div class="max-w-full basis-full pb-[30px] relative px-[15px] w-full box-border">
+                        <div class="relative mx-auto w-full bg-center bg-cover bg-no-repeat">
+                            <a class="text-[#b20000] text-[1.15em] font-bold px-[1em] mb-[1em] tracking-[0.03em] leading-[2.4em] py-[15px] min-h-[37.5px] max-w-full box-border" href="">
+                                <span class="inline-block leading-[1.6]">Xem tất cả bài viết</span>
+                            </a>
+                            <!-- sgv -->
+                        </div>
+                    </div>
+                </div>
+            </div >
+            <!-- Biểu mẫu đăng ký -->
+            <div class="max-w-full basis-full pb-[30px] relative px-[15px] w-full box-border min-[550px]:max-w-[50%] min-[550px]:basis-1/2">
+                <div class="bg-[#36a264] px-[30px] pt-[45px] pb-[20px] relative mx-auto w-full bg-center bg-cover bg-no-repeat box-border">
+                    <h1 class="text-center font-bold text-[1.7em] leading-[1.3] text-[#555] mb-[0.5em] box-border">
+                        <span class="text-white">
+                            <strong>ĐĂNG KÝ TƯ VẤN/ĐẶT LỊCH</strong>
+                        </span>
+                    </h1>
+                    <p class="text-justify mb-[1.3em] box-border">
+                        <span class="text-[#ffffff]">
+                            <strong>Hãy để lại thông tin, MindCare sẽ liên lạc ngay để tìm hiểu vấn đề mà bạn gặp phải và xếp lịch với nhà tham vấn phù hợp. Chúng tôi cam kết thông tin của bạn được bảo mật hoàn toàn!</strong>
+                        </span>
+                    </p>
+                    <div class="relative box-border">
+                        <form action="" class="mb-[1.3em]">
+                            <p>
+                                <span class="block relative box-border">
+                                    <input class="mb-6 h-[58px] px-[20px] w-full rounded-sm" placeholder="Nhập họ và tên" type="text" name="">
+                                </span>
+                                <span class="block relative box-border">
+                                    <input class="mb-6 h-[58px] px-[20px] w-full rounded-sm" placeholder="Nhập số điện thoại" type="text" name="">
+                                </span>
+                                <span class="block relative box-border">
+                                    <input class="mb-6 h-[58px] px-[20px] w-full rounded-sm" placeholder="Nhập ngày tháng năm sinh" type="text" name="">
+                                </span>
+                                <span class="block relative box-border">
+                                    <input class="mb-6 h-[58px] px-[20px] w-full rounded-sm" placeholder="Nhập tỉnh thành" type="text" name="">
+                                </span>
+                                <span class="block relative box-border h-32">
+                                    <textarea cols="40" rows="10" class="mb-6 h-32 p-[20px] w-full rounded-sm" aria-invalid="false" placeholder="Mô tả sơ bộ toàn bộ vấn đề bạn gặp phải" type="text" name="your-message"></textarea>
+                                </span>
+                                <input class="my-4 mr-4 bg-[#14857b] relative inline-block tracking-[0.03em] cursor-pointer text-center align-middle w-full h-[58px] rounded-sm font-semibold text-base text-white" type="submit" value="XÁC NHẬN ĐĂNG KÝ">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="w-full relative">
+        <section class="py-30 relative min-w-[auto] flex flex-row items-center max-[550px]:hidden">
+            <div class="w-full block">
+                <div class="max-w-[1170px] mb-[1.75em] px-[15px] w-full mx-auto">
+                    <h2 class="relative flex justify-between items-center flex-nowrap w-full font-bold text-[1.6em] leading-[1.3em] text-[#555] mb-[0.5em]">
+                        <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                        <span class="text-[#36a264] box-border">Sự kiện nổi bật</span>
+                        <b class="flex-1 h-[2px] opacity-[.1] border"></b>
+                    </h2>
+                </div>
+                <div class="flex gap-3 max-w-[1170px] mb-[1.75em] px-[15px] w-full mx-auto">
+                    <div>
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="media/images/img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="max-w-[1140px] w-full flex flex-wrap flex-row mx-auto justify-center">
+            <div class="max-w-full basis-full relative w-full box-border">
+                <div class="pl-6 pr-9 relative mx-auto w-full bg-center bg-cover bg-no-repeat">
+                    <div class="block h-auto pt-[30px]"></div>
+                    <h3 class="text-left text-[#36a264] uppercase text-base font-bold mb-2">
+                        <span >TÂM LÝ MINDCARE - VÌ TRIỆU NGƯỜI VIỆT NAM HẠNH PHÚC HƠN MỖI NGÀY</span>
+                    </h3>
+                    <p class="mb-[1.3em] box-border">
+                        <span>
+                            <strong>(CÔNG TY TNHH VIỆN TÂM LÝ & GIÁO DỤC VIỆT NAM)</strong>
+                        </span>
+                    </p>
+                    <ul class="text-sm mb-[1.3em] ">
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv-->
+                            <div></div>
+                            <!-- text addrest -->
+                            <div class="text-[90%]">
+                                <span>
+                                    <strong>Hà Nội</strong>
+                                    Số 22, Ngõ 99 Nguyễn Tuân, P.Thanh Xuân Trung, Q. Thanh Xuân, Hà Nội
+                                </span>
+                            </div>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv-->
+                            <div></div>
+                            <!-- text addrest -->
+                            <div class="text-[90%]">
+                                <span>
+                                    <strong>Hồ Chí Minh</strong>
+                                    Tầng 7, Toà nhà Ba Niềm, Số 35 Hoàng Diệu, Phường 13, Quận 4, TP. Hồ Chí Minh
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="mb-[1.3em] box-border">
+                        <span class="text-[90%]">
+                            <img src="" alt="">
+                            <strong>Vui lòng đặt lịch hẹn trước khi tới văn phòng</strong>
+                            <span>-</span>
+                            <span>Hotline: <strong>0828772233 (Hà Nội)</strong> (dịch vụ đánh giá, tham vấn trị liệu tâm lý cá nhân/gia đình) <strong>0877.16.33.66</strong> (dịch vụ cho trường học/doanh nghiệp)</span>
+                        </span>
+                        <span class="text-[90%]">
+                            <img src="" alt="">
+                            <span>
+                                <strong> tamlymindcare@gmail.com</strong>
+                            </span>
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="max-w-full basis-full w-full">
+                <div class="pt-[30px] pl-[20px] relative mx-auto w-full bg-center bg-cover bg-no-repeat">
+                    <h3 class="text-[#36a264] uppercase text-[16px] font-bold ">Giới thiệu</h3>
+                    <ul class="text-[#000] text-[14px] mb-[1.3em]">
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Giới thiệu</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Đội ngũ chuyên gia</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Dịch vụ tâm lý tại MindCare</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Bài viết chuyên đề</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Liên hệ</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="max-w-full basis-full w-full">
+                <div class="pt-[30px] pl-[20px] relative mx-auto w-full bg-center bg-cover bg-no-repeat">
+                    <h3 class="text-[#36a264] uppercase text-[16px] font-bold ">Dịch vụ</h3>
+                    <ul class="text-[#000] text-[14px] mb-[1.3em]">
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Tham vấn, trị liệu tâm lý</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Tư vấn hướng nghiệp</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Dịch vụ tâm lý cho doanh nghiệp</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Tâm lý học đường</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Đánh giá tâm lý</a>
+                        </li>
+                        <li class="ml-[1.3em] mb-[0.6em] box-border">
+                            <!-- dot sgv -->
+                            <div></div>
+                            <!-- text -->
+                            <a href="">Kiểm tra sức khoẻ tinh thần miễn phí</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="max-w-full basis-full w-full">
+                <div class="pl-[20px] pt-[30px] relative mx-auto w-full bg-center bg-cover bg-no-repeat">
+                    <h3 class="text-[#36a264] uppercase text-[16px] font-bold ">FANPAGE CỦA TÂM LÝ MINDCARE</h3>
+                    <!-- Video Youtube -->
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#f0f0f0] h-[50px] leading-[34px] pt-[10px] pb-[15px] text-[0.9em] text-center box-border block">
+            <p class="text-[13px] text-[#646464]">Mọi bản quyền thuộc quyền sở hữu của Viện Tâm Lý & Giáo Dục Việt Nam</p>
+        </div>
+    </footer>
+</body>
+</html>
