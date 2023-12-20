@@ -7,16 +7,21 @@ document.addEventListener('DOMContentLoaded', function () {
     function calculateTotalScore(questionIndex) {
         const answerInputs = document.querySelectorAll('input[name="answer' + (questionIndex + 1) + '"]');
         answerInputs.forEach(function (input) {
+            console.log("input.checked: ",input.checked);
             if (input.checked) {
                 totalScore += parseInt(input.value);
+                console.log("input.value: ",input.value);
             }
         });
+        console.log("questionIndex: ",questionIndex);
+        
     }
 
     // Event listener for the submit button
     document.getElementById('submitBtn').addEventListener('click', function () {
         // Calculate total score for the current question
         calculateTotalScore(currentQuestion);
+        console.log("currentQuestion: ",currentQuestion);
 
         // Check if it's the last question
         if (currentQuestion < questions.length - 1) {
