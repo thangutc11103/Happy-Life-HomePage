@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link href="../dist/output.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Prompt:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-200 p-6">
+    <div class="container mx-auto mt-8 p-4 bg-white rounded shadow-lg">
+        <!-- Questionnaire Container -->
+        <div id="questionnaire" class="questionnaire">
+            <h2 id="titleTest">Hãy chọn đáp án mà đúng với cảm giác của bản thân nhất: </h2>
+            <!-- Question 1 -->
+            <div class="question" data-question="1">
+                <h2 class="text-lg font-semibold mb-4">Question 1:</h2>
+                <input type="radio" id="option1" name="answer1" value="0">
+                <label for="option1">Tôi không cảm thấy buồn</label><br>
+                <input type="radio" id="option2" name="answer1" value="1">
+                <label for="option2">Nhiều lúc tôi cảm thấy buồn</label><br>
+                <input type="radio" id="option3" name="answer1" value="2">
+                <label for="option3">Lúc nào tôi cũng cảm thấy buồn</label><br>
+                <input type="radio" id="option4" name="answer1" value="3">
+                <label for="option4">Tôi rất buồn hoặc rất bất hạnh đến mức không thể chịu được</label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question hidden" data-question="2">
+                <h2 class="text-lg font-semibold mb-4">Question 2: </h2>
+                <input type="radio" id="option1" name="answer1" value="0">
+                <label for="option1">Tôi không nảm lòng về tương lai</label><br>
+                <input type="radio" id="option2" name="answer1" value="1">
+                <label for="option2">Tôi cảm thấy nản lòng về tương lai hơn trước</label><br>
+                <input type="radio" id="option3" name="answer1" value="2">
+                <label for="option3">Tôi cảm thấy mình chẳng có gì mong đợi</label><br>
+                <input type="radio" id="option4" name="answer1" value="3">
+                <label for="option4">Tôi cảm thấy tương lai tuyệt vọng và tình hình chỉ có thể tiếp tục xấu đi</label>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question hidden" data-question="3">
+                <h2 class="text-lg font-semibold mb-4">Question 3: </h2>
+                <input type="radio" id="option1" name="answer1" value="0">
+                <label for="option1">Tôi không cảm thấy như bị thất bại</label><br>
+                <input type="radio" id="option2" name="answer1" value="1">
+                <label for="option2">Tôi thấy mình thất bại nhiều hơn những người khác</label><br>
+                <input type="radio" id="option3" name="answer1" value="2">
+                <label for="option3">Nhìn lại cuộc đời, tôi thấy mình đã có quá nhiều thất bại</label><br>
+                <input type="radio" id="option4" name="answer1" value="3">
+                <label for="option4">Tôi cảm thấy mình là một người hoàn toàn thất bại</label>
+            </div>
+            
+            <!-- Question 4 -->
+            <div class="question hidden" data-question="4">
+                <h2 class="text-lg font-semibold mb-4">Question 4: </h2>
+                <input type="radio" id="option1" name="answer1" value="0">
+                <label for="option1">Tôi còn thích thú với những điều mà trước đây tôi vẫn thường thích</label><br>
+                <input type="radio" id="option2" name="answer1" value="1">
+                <label for="option2">Tôi ít thấy thích những điều mà trước đây tôi vẫn thường ưa thích</label><br>
+                <input type="radio" id="option3" name="answer1" value="2">
+                <label for="option3">Tôi vẫn còn ít thích thú về những điều trước đây tôi vẫn thường ưa thích</label><br>
+                <input type="radio" id="option4" name="answer1" value="3">
+                <label for="option4">Tôi không còn chút thích thú nào nữa</label>
+            </div>
+            
+            <!-- Question 5 -->
+            <div class="question hidden" data-question="5">
+                <h2 class="text-lg font-semibold mb-4">Question 5: </h2>
+                <input type="radio" id="option1" name="answer1" value="0">
+                <label for="option1">Tôi hoàn toàn không cảm thấy có tội lỗi gì ghê gớm cả</label><br>
+                <input type="radio" id="option2" name="answer1" value="1">
+                <label for="option2">Phần nhiều những việc tôi đã làm tôi đều cảm thấy có tội</label><br>
+                <input type="radio" id="option3" name="answer1" value="2">
+                <label for="option3">Phần lớn thời gian tôi cảm thấy mình có tội</label><br>
+                <input type="radio" id="option4" name="answer1" value="3">
+                <label for="option4">Lúc nào tôi cũng cảm thấy mình có tội</label>
+            </div>
+
+            <!-- Question 6 -->
+            <div class="question hidden" data-question="6">
+                <h2 class="text-lg font-semibold mb-4">Question 6: </h2>
+                <input type="radio" id="option1" name="answer1" value="0">
+                <label for="option1">Tôi không cảm thấy đang bị trừng phạt</label><br>
+                <input type="radio" id="option2" name="answer1" value="1">
+                <label for="option2">Tôi cảm thấy có lẽ mình đáng bị trừng ohatj</label><br>
+                <input type="radio" id="option3" name="answer1" value="2">
+                <label for="option3">Tôi mong chờ bị trừng phạt</label><br>
+                <input type="radio" id="option4" name="answer1" value="3">
+                <label for="option4">Tôi cảm thấy mình đang bị trừng phạt</label>
+            </div>
+
+            <!-- Submit Button -->
+            <button id="submitBtn" class="bg-blue-500 text-white px-4 py-2 mt-4">Submit</button>
+
+        </div>
+        <!-- Total Score Display -->
+        <div id="totalScore" class="hidden">
+            <h2 class="text-lg font-semibold mb-4">Total Score: <span id="scoreValue"></span></h2>
+        </div>
+    </div>
+</body>
+</html>
